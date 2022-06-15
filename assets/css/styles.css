@@ -12,6 +12,17 @@ body {
     box-sizing: border-box;
 }
 
+.display-flex {
+    display: flex;
+    flex: inherit;
+}
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* header */
 
 /* nav bar */
@@ -48,6 +59,16 @@ header {
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.social-icon {
+    padding: 10px;
 }
 
 
