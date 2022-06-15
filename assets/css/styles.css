@@ -12,6 +12,11 @@ body {
     box-sizing: border-box;
 }
 
+section {
+    position: relative;
+
+}
+
 .display-flex {
     display: flex;
     flex: inherit;
@@ -52,19 +57,30 @@ header {
 }
 
 .game-board {
-    width: 80%;
-    height: 50vh;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    height: 40ch;
+    width: 90vw;
+    margin: auto;
+    justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    grid-template-columns: repeat(7);
+    grid-template-rows: repeat(7);
+    background-color: blue;
 }
 
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 10px;
+    background-color: violet;
+}
+
+.footer-position {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .social-icon {
