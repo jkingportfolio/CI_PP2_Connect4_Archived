@@ -94,7 +94,8 @@ header {
 }
 
 .game-cell {
-    
+    background: none;
+    box-shadow: inset 2px 2px 0 rgb(255 255 255 / 5%), inset -2px -2px 0 #09186e;
 }
 
 footer {
