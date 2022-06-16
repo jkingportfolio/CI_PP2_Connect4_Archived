@@ -93,6 +93,10 @@ header {
     height: 100%;
 }
 
+.game-cell {
+    
+}
+
 footer {
     display: flex;
     flex-direction: row;
