@@ -84,6 +84,8 @@ header {
 
 .game-grid {
     display: grid;
+    grid-gap: 5px;
+    background-color: rgb(43, 46, 226);
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
     position: absolute;
@@ -91,11 +93,13 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 5px;
 }
 
 .game-cell {
     background: none;
-    box-shadow: inset 2px 2px 0 rgb(255 255 255 / 5%), inset -2px -2px 0 #09186e;
+    background-color: white;
+    border-radius: 50%;
 }
 
 footer {
