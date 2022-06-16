@@ -1,4 +1,6 @@
 /* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 /* global styles */
 
@@ -8,13 +10,17 @@ a {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     box-sizing: border-box;
+    /* font-family: 'Teko', sans-serif; */
+    font-family: 'Alfa Slab One', cursive;
 }
 
 section {
     position: relative;
-
 }
 
 .display-flex {
@@ -64,7 +70,16 @@ header {
 }
 
 .game-section {
+    position: relative;
     min-height: 80vh;
+}
+
+.game-notification {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 .game-board {
@@ -106,24 +121,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 10px;
+    margin-top: auto;
     background-color: violet;
-}
-
-.footer-position {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .social-icon {
     padding: 10px;
+    font-size: 20px;
 }
-
-
-
-
 
 @media only screen and (min-width: 768px) {
 
