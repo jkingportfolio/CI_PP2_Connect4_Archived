@@ -32,6 +32,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 1em;
 }
 
 /* header */
@@ -62,19 +63,23 @@ header {
     background-color: none;
 }
 
+.game-section {
+    min-height: 80vh;
+}
+
 .game-board {
     position: sticky;
     top: 1em;
     width: 80vw;
-    height: 100vw;
+    height: 80vw;
     min-width: 280px;
     min-height: 300px;
-    max-width: calc(100vh - 2em);
-    max-height: calc(100vh - 2em);
+    max-width: 35rem;
+    max-height: 35rem;
     overflow: hidden;
     border: 5px solid #000000;
     border-radius: 5px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .game-grid {
