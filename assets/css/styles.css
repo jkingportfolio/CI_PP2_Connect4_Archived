@@ -244,6 +244,10 @@ footer {
     header {
         align-items: center;
     }
+
+    .game-section {
+        min-height: 85vh;
+    }
 }
 
 
