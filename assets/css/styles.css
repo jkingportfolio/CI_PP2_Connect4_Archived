@@ -140,7 +140,7 @@ footer {
 /* modals */
 
 .bg-modal {
-    /* display: flex; */
+    display: none;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -148,7 +148,6 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
-    display: none;
 }
 
 .modal-content {
