@@ -56,6 +56,11 @@ section {
     padding-right: 10px;
 }
 
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
 header {
     width: 100%;
     padding: 0;
