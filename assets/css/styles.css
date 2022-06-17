@@ -127,6 +127,12 @@ header {
     background-color: rgb(43, 46, 226);
 }
 
+.game-cell-hover:hover {
+    background-color: red;
+}
+
+
+
 footer {
     display: flex !important;
     flex-direction: row !important;
