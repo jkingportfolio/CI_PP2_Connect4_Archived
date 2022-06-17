@@ -5,7 +5,7 @@ function(){
     document.querySelector('.new-game-modal').style.display = "Flex";
 });
 
-document.querySelector('.close').addEventListener('click', 
+document.querySelector('.new-game-close').addEventListener('click', 
 function(){
     document.querySelector('.new-game-modal').style.display = "None";
 });
@@ -15,7 +15,7 @@ function(){
     document.querySelector('.help-modal').style.display = "Flex";
 });
 
-document.querySelector('.close').addEventListener('click', 
+document.querySelector('.help-close').addEventListener('click', 
 function(){
     document.querySelector('.help-modal').style.display = "None";
 });
@@ -25,7 +25,7 @@ function(){
     document.querySelector('.settings-modal').style.display = "Flex";
 });
 
-document.querySelector('.close').addEventListener('click', 
+document.querySelector('.settings-close').addEventListener('click', 
 function(){
     document.querySelector('.settings-modal').style.display = "None";
 });
@@ -35,9 +35,9 @@ function(){
     document.querySelector('.contact-modal').style.display = "Flex";
 });
 
-document.querySelector('.close').addEventListener('click', 
+document.querySelector('.contact-close').addEventListener('click', 
 function(){
-    document.querySelector('.contatc-modal').style.display = "None";
+    document.querySelector('.contact-modal').style.display = "None";
 });
 
 

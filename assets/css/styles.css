@@ -150,6 +150,15 @@ footer {
     top: 0;
 }
 
+.new-game-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 30px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
 .help-modal {
     display: none;
     justify-content: center;
@@ -159,6 +168,15 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
+}
+
+.help-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 30px;
+    transform: rotate(45deg);
+    cursor: pointer;
 }
 
 .settings-modal {
@@ -172,6 +190,15 @@ footer {
     top: 0;
 }
 
+.settings-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 30px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
 .contact-modal {
     display: none;
     justify-content: center;
@@ -181,6 +208,15 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
+}
+
+.contact-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 30px;
+    transform: rotate(45deg);
+    cursor: pointer;
 }
 
 .modal-content {
