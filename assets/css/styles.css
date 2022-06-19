@@ -123,8 +123,12 @@ header {
     border-radius: 50%;
 }
 
-.game-cell-top {
+.game-cell-bottom {
     background-color: rgb(43, 46, 226);
+}
+
+.game-cell-hover:hover {
+    background-color: red;
 }
 
 /* counters */
@@ -136,8 +140,6 @@ header {
 .player-two {
     background-color: yellow;
 }
-
-
 
 footer {
     display: flex !important;

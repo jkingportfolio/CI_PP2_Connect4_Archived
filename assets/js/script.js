@@ -2,8 +2,15 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     //add intial function on load here
-};
 
+// game functions to create
+
+//check board, check if player 1 has a winning array, then check player 2
+// display winner if there is one
+
+// loop to check what grid items are being used, and if placement is correct
+
+// display notification, player 1 turn, player 2 turn, winner
 
 // modals
 
@@ -48,3 +55,4 @@ function(){
 });
 
 
+};
