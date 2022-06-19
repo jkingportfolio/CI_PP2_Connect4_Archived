@@ -2,6 +2,8 @@
 
 // game functions to create
 
+const notification = document.getElementById('game-notification');
+
 let winningCombinations = [
     //horizontal
     [0, 1, 2, 3]
