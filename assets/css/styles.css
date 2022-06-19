@@ -127,8 +127,14 @@ header {
     background-color: rgb(43, 46, 226);
 }
 
-.game-cell-hover:hover {
+/* counters */
+
+.player-one {
     background-color: red;
+}
+
+.player-two {
+    background-color: yellow;
 }
 
 
