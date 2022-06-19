@@ -3,6 +3,7 @@
 // game functions to create
 
 const notification = document.getElementById('game-notification');
+const cells = document.querySelectorAll('.grid span')
 
 let winningCombinations = [
     //horizontal
