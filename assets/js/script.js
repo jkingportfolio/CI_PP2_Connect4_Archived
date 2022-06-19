@@ -4,6 +4,7 @@
 
 const notification = document.getElementById('game-notification');
 const cells = document.querySelectorAll('.grid span')
+let currentPlayer = 1
 
 let winningCombinations = [
     //horizontal
