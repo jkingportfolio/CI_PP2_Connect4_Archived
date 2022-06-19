@@ -1,8 +1,5 @@
 // listen for the DOM content to be loaded
 
-document.addEventListener("DOMContentLoaded", function() {
-    //add intial function on load here
-
 // game functions to create
 
 //check board, check if player 1 has a winning array, then check player 2
@@ -55,4 +52,3 @@ function(){
 });
 
 
-};
