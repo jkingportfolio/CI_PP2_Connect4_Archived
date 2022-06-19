@@ -1,5 +1,7 @@
 // listen for the DOM content to be loaded
+document.addEventListener("DOMContentLoaded", function() {
 
+});
 // game functions to create
 
 const notification = document.getElementById('game-notification');
@@ -84,13 +86,17 @@ let winningCombinations = [
     [17, 25, 33, 41]   
 ]
 
+// Main game loop
 
-//check board, check if player 1 has a winning array, then check player 2
+function runGame() {
+    //check board, check if player 1 has a winning array, then check player 2
 // display winner if there is one
 
 // loop to check what grid items are being used, and if placement is correct
 
 // display notification, player 1 turn, player 2 turn, winner
+}
+
 
 // modals
 
