@@ -5,6 +5,8 @@
 const notification = document.getElementById('game-notification');
 const cells = document.querySelectorAll('.grid span')
 let currentPlayer = 1
+let music = false;
+let sounds = false;
 
 let winningCombinations = [
     //horizontal
