@@ -1,9 +1,9 @@
-// listen for the DOM content to be loaded
+// Listen for the DOM content to be loaded
 document.addEventListener("DOMContentLoaded", function() {
 
 });
-// game functions to create
 
+// Variables
 const notification = document.getElementById('game-notification');
 const cells = document.querySelectorAll('.grid span')
 let currentPlayer = 1
@@ -87,18 +87,18 @@ let winningCombinations = [
 ]
 
 // Main game loop
-
 function runGame() {
     //check board, check if player 1 has a winning array, then check player 2
-// display winner if there is one
+    
+    // display winner if there is one
 
-// loop to check what grid items are being used, and if placement is correct
+    // loop to check what grid items are being used, and if placement is correct
 
-// display notification, player 1 turn, player 2 turn, winner
+    // display notification, player 1 turn, player 2 turn, winner
 }
 
 
-// modals
+// Modals
 
 document.getElementById("#newGameModal").addEventListener('click',
 function(){
