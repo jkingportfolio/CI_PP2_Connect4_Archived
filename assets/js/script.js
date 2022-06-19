@@ -1,3 +1,10 @@
+// listen for the DOM content to be loaded
+
+document.addEventListener("DOMContentLoaded", function() {
+    //add intial function on load here
+};
+
+
 // modals
 
 document.getElementById("#newGameModal").addEventListener('click',
