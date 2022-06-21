@@ -93,7 +93,9 @@ function runGame() {
     // display winner if there is one
 
     // loop to check what grid items are being used, and if placement is correct
-
+    for (let i = 0; i < cells.length; i++) {
+        cells[i].onclick(console.log(cells[i])) 
+    }
     // display notification, player 1 turn, player 2 turn, winner
 }
 
