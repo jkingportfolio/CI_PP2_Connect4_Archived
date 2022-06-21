@@ -1,8 +1,6 @@
 // Listen for the DOM content to be loaded
 document.addEventListener("DOMContentLoaded", function() {
 
-
-
 // Variables
 const notification = document.getElementById('game-notification');
 const cells = document.querySelectorAll('.game-grid span')
