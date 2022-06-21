@@ -93,7 +93,21 @@ let winningCombinations = [
 
 // loop to check what grid items are being used, and if placement is correct
     for (let i = 0; i < cells.length; i++) {
-        console.log(i); 
+        cells[i].onclick = () => {
+            //log cell number which has been clicked
+            console.log(i);
+            if (cells[i + 7].classList.contains('occupied') &&!cells[i].classList.contains('occupied')) {
+                if (currentPlayer == 1) {
+                    cells[i].classList.add('occupied');
+                    cells[i].classList.add('player-one');
+                    currentPlayer = 2
+                    notification.innerHTML = `Its Player ${currentPlayer}'s turn!`
+                } else if (currentPlayer == 2) {
+                    cells[i].classList.add('occupied');
+                    cells[i].classList.add('player-two');
+                }
+            } else alert('not correct');
+        }
     }
 // display notification, player 1 turn, player 2 turn, winner
 
