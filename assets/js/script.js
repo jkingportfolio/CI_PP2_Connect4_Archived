@@ -1,11 +1,11 @@
 // Listen for the DOM content to be loaded
 document.addEventListener("DOMContentLoaded", function() {
 
-});
+
 
 // Variables
 const notification = document.getElementById('game-notification');
-const cells = document.querySelectorAll('.grid span')
+const cells = document.querySelectorAll('.game-grid span')
 let currentPlayer = 1
 let music = false;
 let sounds = false;
@@ -86,19 +86,18 @@ let winningCombinations = [
     [17, 25, 33, 41],  
 ]
 
-// Main game loop
-function runGame() {
-    //check board, check if player 1 has a winning array, then check player 2
+
+//check board, check if player 1 has a winning array, then check player 2
     
-    // display winner if there is one
+// display winner if there is one
 
-    // loop to check what grid items are being used, and if placement is correct
+// loop to check what grid items are being used, and if placement is correct
     for (let i = 0; i < cells.length; i++) {
-        cells[i].onclick(console.log(cells[i])) 
+        console.log(i); 
     }
-    // display notification, player 1 turn, player 2 turn, winner
-}
+// display notification, player 1 turn, player 2 turn, winner
 
+});
 
 // Modals
 
